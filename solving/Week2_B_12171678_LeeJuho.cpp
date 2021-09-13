@@ -4,9 +4,11 @@
 #define inhaC first
 #define biryongC second
 using namespace std;
+
 typedef pair<int, int> pairs;
 pairs arr[maxNum];
 bool useflag[maxNum];
+
 bool compare(pairs a, pairs b) {
 	if (a.inhaC == b.inhaC) 
 		return a.biryongC > b.biryongC;
