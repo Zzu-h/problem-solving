@@ -4,22 +4,12 @@
 #define inhaC first
 #define biryongC second
 using namespace std;
-
 typedef pair<int, int> pairs;
-pairs arr[maxNum];
-bool useflag[maxNum];
 
 bool compare(pairs a, pairs b) {
-	if (a.inhaC == b.inhaC) 
-		return a.biryongC > b.biryongC;
-	return a.inhaC > b.inhaC;
+	return a.inhaC + a.biryongC > b.inhaC + b.biryongC;
 }
-void init() {
-	for (int i = 0; i < maxNum; i++) {
-		arr[0] = { 0,0 };
-		useflag[i] = false;
-	}
-}
+
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -27,67 +17,19 @@ int main() {
 	int n;
 	cin >> n;
 	while (n--) {
-		//init();
 		pairs arr[maxNum];
-		bool useflag[maxNum] = { 0 ,};
-		int N, in = 0, bi = 0, gap = 0;
+		bool turn = true;
+		int N, gap = 0;
 		cin >> N;
-		for (int i = 0; i < N; i++) 
+		for (int i = 0; i < N; i++)
 			cin >> arr[i].inhaC >> arr[i].biryongC;
 		sort(arr, arr + N, compare);
-
-		bool turn = true;
-		int  inhaIdx = 0, minIdx = 0;
-		for (int k = 0; k < N; k++) {
-			if (turn) {
-				// inha turn
-				while (useflag[inhaIdx]) {
-					cout << useflag[inhaIdx] << endl;
-					inhaIdx++;
-				}
-				in += arr[inhaIdx].inhaC;
-				gap = in - bi;
-				useflag[inhaIdx] = true;
-				inhaIdx++;
-			}
-			else {
-				// biryong turn
-				int minGap = gap;
-				for (int i = inhaIdx; i < N; i++) {
-					//find min gap with inha
-					if (useflag[i])
-						continue;
-					// 잘못 계산함
-					int tempIn = in + arr[i == inhaIdx ? inhaIdx +1 : inhaIdx].inhaC, tempBi = bi + arr[i].biryongC;
-					int tempGap = tempIn - tempBi;
-					if (minGap > tempGap) {
-						minIdx = i;
-						minGap = tempGap;
-					}
-				}
-				gap = minGap;
-				bi += arr[minIdx].biryongC;
-				useflag[minIdx] = true;
-			}
-			//cout << in << ' ' << bi << endl;
-			turn = !turn;
-		}
+		for (int k = 0; k < N; k++, turn = !turn) 
+			turn ? gap += arr[k].inhaC : gap -= arr[k].biryongC;
 		cout << gap << endl;
 	}
 	return 0;
 }
-
-/*cout << "inha" << endl;
-while (!inha.empty()) {
-	cout << inha.top().price << ' ' << inha.top().Idx <<endl;
-	inha.pop();
-}
-cout << "\nbiryong" << endl;
-while (!biryong.empty()) {
-	cout << biryong.top().price << ' ' << biryong.top().Idx << endl;
-	biryong.pop();
-}
-cout << endl;*/
 
 //#include<iostream>
 //#include<queue>
