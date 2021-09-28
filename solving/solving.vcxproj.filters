@@ -54,5 +54,11 @@
     <ClCompile Include="Week3_B_12171678_LeeJuho.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Week4_A_12171678_LeeJuho.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Week4_B-1_12171678_LeeJuho.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

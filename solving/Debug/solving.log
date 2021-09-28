@@ -1,2 +1,6 @@
-﻿  Week3_B_12171678_LeeJuho.cpp
+﻿  Week4_B-1_12171678_LeeJuho.cpp
+C:\Users\주호\Desktop\　\problem-solving\solving\Week4_B-1_12171678_LeeJuho.cpp(39,24): warning C4101: 'vy2' :참조되지 않은 지역 변수입니다.
+C:\Users\주호\Desktop\　\problem-solving\solving\Week4_B-1_12171678_LeeJuho.cpp(39,9): warning C4101: 'vx1' :참조되지 않은 지역 변수입니다.
+C:\Users\주호\Desktop\　\problem-solving\solving\Week4_B-1_12171678_LeeJuho.cpp(39,19): warning C4101: 'vy1' :참조되지 않은 지역 변수입니다.
+C:\Users\주호\Desktop\　\problem-solving\solving\Week4_B-1_12171678_LeeJuho.cpp(39,14): warning C4101: 'vx2' :참조되지 않은 지역 변수입니다.
   solving.vcxproj -> C:\Users\주호\Desktop\　\problem-solving\Debug\solving.exe
