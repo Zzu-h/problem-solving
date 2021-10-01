@@ -1,3 +1,4 @@
+// boj 공유기 설치
 #include<iostream>
 #include<algorithm>
 #define MAXNUM 1000000
