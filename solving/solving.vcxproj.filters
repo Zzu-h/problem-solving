@@ -69,9 +69,6 @@
     <ClCompile Include="nhnA.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="nhnC.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Week6_A_12171678_LeeJuho.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -85,6 +82,33 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Week4_B-2_12171678_LeeJuho.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Week9_A_12171678_LeeJuho.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Week9_B_12171678_LeeJuho.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="temp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="makeTestCase.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Week10_A_12171678_LeeJuho.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Week10_B_12171678_LeeJuho.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="우테코.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Week11_A_12171678_LeeJuho.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Week11_B_12171678_LeeJuho.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,2 +1,7 @@
-﻿  Week4_B-1_12171678_LeeJuho.cpp
+﻿  Week11_A_12171678_LeeJuho.cpp
+D:\인하대학교\3학년 2학기(2021-2)\문해기\solving\solving\solving\Week11_A_12171678_LeeJuho.cpp(22,31): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\인하대학교\3학년 2학기(2021-2)\문해기\solving\solving\solving\Week11_A_12171678_LeeJuho.cpp(26,26): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\인하대학교\3학년 2학기(2021-2)\문해기\solving\solving\solving\Week11_A_12171678_LeeJuho.cpp(57,26): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+D:\인하대학교\3학년 2학기(2021-2)\문해기\solving\solving\solving\Week11_A_12171678_LeeJuho.cpp(63,12): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\인하대학교\3학년 2학기(2021-2)\문해기\solving\solving\solving\Week11_A_12171678_LeeJuho.cpp(65,26): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
   solving.vcxproj -> D:\인하대학교\3학년 2학기(2021-2)\문해기\solving\solving\Debug\solving.exe
