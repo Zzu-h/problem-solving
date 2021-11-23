@@ -67,7 +67,9 @@
     <ClCompile Include="Week11_B_12171678_LeeJuho.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Week12_A_12171678_LeeJuho.cpp" />
+    <ClCompile Include="Week12_A_12171678_LeeJuho.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Week12_B_12171678_LeeJuho.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
