@@ -1,2 +1,8 @@
-﻿  temp.cpp
+﻿  Week9_B_12171678_LeeJuho.cpp
+D:\인하대학교\3학년 2학기(2021-2)\문해기\solving\solving\solving\Week9_B_12171678_LeeJuho.cpp(31,25): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+D:\인하대학교\3학년 2학기(2021-2)\문해기\solving\solving\solving\Week9_B_12171678_LeeJuho.cpp(46,23): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+D:\인하대학교\3학년 2학기(2021-2)\문해기\solving\solving\solving\Week9_B_12171678_LeeJuho.cpp(47,24): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+D:\인하대학교\3학년 2학기(2021-2)\문해기\solving\solving\solving\Week9_B_12171678_LeeJuho.cpp(73,26): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+D:\인하대학교\3학년 2학기(2021-2)\문해기\solving\solving\solving\Week9_B_12171678_LeeJuho.cpp(85,24): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+D:\인하대학교\3학년 2학기(2021-2)\문해기\solving\solving\solving\Week9_B_12171678_LeeJuho.cpp(86,25): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
   solving.vcxproj -> D:\인하대학교\3학년 2학기(2021-2)\문해기\solving\solving\Debug\solving.exe
